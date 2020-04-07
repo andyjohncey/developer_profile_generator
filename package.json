@@ -1,0 +1,33 @@
+{
+  "name": "developer_profile_generator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andyjohncey/developer_profile_generator.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/andyjohncey/developer_profile_generator/issues"
+  },
+  "homepage": "https://github.com/andyjohncey/developer_profile_generator#readme",
+  "devDependencies": {
+    "jest": "^24.9.0"
+  },
+  "dependencies": {
+    "axios": "^0.19.2",
+    "dotenv": "^8.0.0",
+    "electron": "^5.0.3",
+    "electron-html-to": "^2.6.0",
+    "electron-pdf": "^7.0.0",
+    "inquirer": "^7.0.0",
+    "open": "^7.0.3",
+    "util": "^0.12.2"
+  }
+}
